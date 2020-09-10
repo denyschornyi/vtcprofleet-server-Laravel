@@ -1,0 +1,27 @@
+{
+    "remotePath": "/var/www/html/vtcpro/",
+    "host": "167.71.57.246",
+    "username": "root",
+    "password": "12b428l8w447sCSbNMw@!!",
+    "port": 22,
+    "secure": false,
+    "protocol": "sftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

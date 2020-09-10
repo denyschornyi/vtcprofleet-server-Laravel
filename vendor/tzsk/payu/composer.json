@@ -1,0 +1,65 @@
+{
+    "name": "tzsk/payu",
+    "type": "library",
+    "description": "PayU India Payment Gateway Integration for Laravel 5.2 and above.",
+    "keywords": [
+        "tzsk",
+        "payu",
+        "payment",
+        "geteway",
+        "verification",
+        "laravel payu",
+        "payment gateway",
+        "payu payment gateway",
+        "laravel 5 payment gateway",
+        "payu gateway with verification",
+        "payu payment verification laravel"
+    ],
+    "homepage": "https://github.com/tzsk/payu",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kazi Mainuddin Ahmed",
+            "email": "mailtokmahmed@gmail.com",
+            "homepage": "https://github.com/tzsk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">5.5.9",
+        "illuminate/support": "~5.2",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tzsk\\Payu\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tzsk\\Payu\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tzsk\\Payu\\Provider\\PayuServiceProvider"
+            ],
+            "aliases": {
+                "Payment": "Tzsk\\Payu\\Facade\\Payment"
+            }
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

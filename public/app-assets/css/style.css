@@ -1,0 +1,80 @@
+/*================================================================================
+	Item Name: Vuesax HTML Admin Template
+	Version: 1.1
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.bg-purple{
+    background: #b531ba !important;
+    background: -moz-linear-gradient(left, #b531ba 0, #e65feb 100%);
+    background: -webkit-linear-gradient(left, #b531ba 0, #e65feb 100%);
+    background: linear-gradient(to right, #b531ba 0, #e65feb 100%);
+}
+
+/*.main-menu.menu-dark .navigation>li.active>a {
+    font-weight: 400;
+    color: #fff;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(left, #b531ba 0, #e65feb 100%) !important;
+    background: -moz-linear-gradient(332deg,#b531ba,#e65feb) !important;
+    background: -o-linear-gradient(332deg,#b531ba,#e65feb) !important;
+    !* background: linear-gradient(118deg,#7367f0,rgba(115,103,240,.7)); *!
+    -webkit-box-shadow: 0 0 10px 1px #b531ba;
+    box-shadow: 0 0 10px 1px #b531ba;
+}
+
+.nav.nav-tabs .nav-item .nav-link.active {
+    color: #ff9f43;
+}
+
+
+
+.nav.nav-tabs .nav-item .nav-link.active:after {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: attr(data-before);
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    background: -webkit-linear-gradient(60deg,#ff9f43,#ff9f43) !important;
+    background: -moz-linear-gradient(332deg,#ff9f43,#ff9f43) !important;
+    background: -o-linear-gradient(332deg,#ff9f43,#ff9f43) !important;
+    background: linear-gradient(30deg,#ff9f43,#ff9f43)!important;
+    -webkit-box-shadow: 0 0 8px 0 rgba(115,103,240,.5)!important;
+    box-shadow: 0 0 8px 0 rgba(115,103,240,.5)!important;
+}
+
+#DataTables_Table_0_info{
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .btn, .btn-group {
+        width:100%;
+    }
+}
+
+input[type="search"]{
+    font-size: 15px;
+}
+
+.sorting{
+    font-size: 15px;
+}*/
+
